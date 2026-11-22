@@ -31,6 +31,29 @@
 
   <title>amar_info_repair_manager</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- Google Fonts: Cairo for Arabic text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    @media print {
+      @page {
+        margin: 0;
+      }
+      body {
+        margin: 0;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .arabic-text {
+        direction: rtl;
+        text-align: right;
+        font-family: 'Cairo', 'Segoe UI', Tahoma, sans-serif;
+      }
+    }
+  </style>
 </head>
 <body>
   <!--
